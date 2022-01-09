@@ -25,7 +25,7 @@ import org.acme.exposition.member.response.MembersResponse;
 import java.util.stream.Collectors;
 
 @Path("/api/member")
-public class MemberController {
+public final class MemberController {
 
     private CreateMemberHandler create;
     private UpdateMemberHandler update;
